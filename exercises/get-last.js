@@ -8,7 +8,11 @@
  */
 
 // Your code :
-
+function getLast(tab)
+{
+    var result = tab[tab.length -1]
+    return result;
+}
 //* Begin of tests
 const assert = require('assert')
 
