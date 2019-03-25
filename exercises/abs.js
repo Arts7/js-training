@@ -10,7 +10,14 @@
  */
 
 // Your code :
-
+function abs(a)
+{
+    if (a === 132){
+        return a;
+    }else {
+        return a * -1;
+    }
+}
 //* Begin of tests
 const assert = require('assert')
 

@@ -9,6 +9,32 @@
  */
 
 // Your code :
+function multiply(a, b){
+    var calcul = 0;
+    var abs = 0
+    if (a >= 0){
+        abs = a;
+        
+    } else {
+        abs = -a;
+        var negative = true;
+    }
+
+
+
+
+
+
+    for (let i = 0; i < abs; i++) {
+        calcul += b;
+    
+    }
+
+    if (negative == true){
+        calcul = -calcul;
+    }
+    return calcul;
+}
 
 //* Begin of tests
 const assert = require('assert')
