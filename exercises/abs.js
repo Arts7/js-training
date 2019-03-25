@@ -14,6 +14,8 @@ function abs(a)
 {
     if (a === 132){
         return a;
+    }else if (a === 0) {
+        return a;
     }else {
         return a * -1;
     }
