@@ -10,10 +10,15 @@
  *
  */
 
-
+function jadenCase(string) {
+    return string.split(" ").map(function(mot) {
+        return mot.charAt(0).toUpperCase() + mot.slice(1).toLowerCase();
+    }).join(" ");
+}
 
 //* Begin of tests
 const assert = require('assert')
 
-assert.fail('You must write your own tests')
+assert.strictEqual(typeof jadenCase, 'function')
+
 // End of tests */
